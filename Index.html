@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>John Kendric - Frontend Developer</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <nav class="container">
+      <div class="logo">John Kendric</div>
+      <ul class="nav-links">
+        <li><a href="#home" class="nav-link">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <div class="hamburger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-text">
+          <h4 class="greeting">Hi, It's Me</h4>
+          <h1 class="name">John Kendric</h1>
+          <h2 class="title">Frontend Developer</h2>
+          <p class="description">I craft responsive, user-friendly websites with modern technologies to bring your ideas to life.</p>
+          <div class="hero-buttons">
+            <a href="#contact" class="btn primary-btn">Hire Me</a>
+            <a href="#portfolio" class="btn secondary-btn">My Work</a>
+          </div>
+          <div class="social-links">
+            <a href="#" class="social-link" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="social-link" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="social-link" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="social-link" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+        <div class="hero-image">
+          <div class="circle-image">
+            <picture>
+              <source 
+                srcset="https://aahadali.com/wp-content/uploads/2025/04/image.jpg 480w,
+                        https://aahadali.com/wp-content/uploads/2025/04/image.jpg 768w,
+                        https://aahadali.com/wp-content/uploads/2025/04/image.jpg 1200w"
+                sizes="(max-width: 576px) 100vw, (max-width: 768px) 50vw, 600px"
+                type="image/jpeg">
+              <img src="https://aahadali.com/wp-content/uploads/2025/04/image.jpg" alt="John Kendric" loading="lazy">
+            </picture>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <div class="container">
+      <div class="about-content">
+        <div class="about-image">
+          <div class="circle-image">
+            <picture>
+              <source 
+                srcset="https://aahadali.com/wp-content/uploads/2025/04/image.jpg 480w,
+                        https://aahadali.com/wp-content/uploads/2025/04/image.jpg 768w,
+                        https://aahadali.com/wp-content/uploads/2025/04/image.jpg 1200w"
+                sizes="(max-width: 576px) 100vw, (max-width: 768px) 50vw, 400px"
+                type="image/jpeg">
+              <img src="https://aahadali.com/wp-content/uploads/2025/04/image.jpg" alt="John Kendric" loading="lazy">
+            </picture>
+          </div>
+        </div>
+        <div class="about-text">
+          <h2 class="section-title">About <span>Me</span></h2>
+          <h3 class="section-subtitle">Frontend Developer</h3>
+          <p>I’m a passionate Frontend Developer with 5+ years of experience in building responsive and interactive websites. I specialize in HTML, CSS, JavaScript, and modern frameworks like React and Vue.js.</p>
+          <a href="#" class="btn primary-btn">Read More</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="skills">
+    <div class="container">
+      <h2 class="section-title">My <span>Skills</span></h2>
+      <div class="skills-grid">
+        <div class="skill-item">
+          <p>HTML</p>
+          <div class="progress-bar"><span style="width: 90%;"></span></div>
+        </div>
+        <div class="skill-item">
+          <p>CSS</p>
+          <div class="progress-bar"><span style="width: 85%;"></span></div>
+        </div>
+        <div class="skill-item">
+          <p>JavaScript</p>
+          <div class="progress-bar"><span style="width: 80%;"></span></div>
+        </div>
+        <div class="skill-item">
+          <p>React</p>
+          <div class="progress-bar"><span style="width: 75%;"></span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio Section -->
+  <section id="portfolio" class="portfolio">
+    <div class="container">
+      <h2 class="section-title">Latest <span>Projects</span></h2>
+      <div class="portfolio-grid">
+        <div class="portfolio-item">
+          <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=870&q=80" alt="Project 1" loading="lazy">
+          <div class="portfolio-overlay">
+            <h3>Project 1</h3>
+            <p>Web Development</p>
+          </div>
+        </div>
+        <div class="portfolio-item">
+          <img src="https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?ixlib=rb-4.0.3&auto=format&fit=crop&w=869&q=80" alt="Project 2" loading="lazy">
+          <div class="portfolio-overlay">
+            <h3>Project 2</h3>
+            <p>Graphic Design</p>
+          </div>
+        </div>
+        <div class="portfolio-item">
+          <img src="https://images.unsplash.com/photo-1547658719-da2b51169166?ixlib=rb-4.0.3&auto=format&fit=crop&w=764&q=80" alt="Project 3" loading="lazy">
+          <div class="portfolio-overlay">
+            <h3>Project 3</h3>
+            <p>Digital Marketing</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2 class="section-title">Contact <span>Me!</span></h2>
+      <div class="contact-content">
+        <form class="contact-form">
+          <div class="form-group">
+            <input type="text" placeholder="Full Name" required>
+          </div>
+          <div class="form-group">
+            <input type="email" placeholder="Email Address" required>
+          </div>
+          <div class="form-group">
+            <input type="text" placeholder="Email Subject" required>
+          </div>
+          <div class="form-group">
+            <textarea placeholder="Your Message" required></textarea>
+          </div>
+          <button type="submit" class="btn primary-btn">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>Copyright © 2025 John Kendric. All Rights Reserved.</p>
+      <div class="footer-socials">
+        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
